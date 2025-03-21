@@ -23,11 +23,11 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOGGER_ID = int(getenv("LOGGER_ID", "-1002357707746"))
 
-OWNER_ID = int(getenv("OWNER_ID", "7906364258"))
+OWNER_ID = int(getenv("OWNER_ID", "6499432257"))
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "NIKKU_ROBOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "NIKKU_ROBOT)
 
-COMMAND_HANDLER = getenv("COMMAND_HANDLER",! / .").split()
+COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -89,7 +89,7 @@ START_IMG_URL = getenv(
     "START_IMG_URL", "https://iili.io/3zngKDN.md.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://iili.io/3zngtdG.md.jpg"
+    "PING_IMG_URL", "https://iili.io/3zngPst.md.jpg"
 )
 PLAYLIST_IMG_URL = "https://iili.io/3zngL1n.md.jpg"
 STATS_IMG_URL = "https://te.legra.ph/file/4a7c28726502e24ea0fe0.jpg"
@@ -122,4 +122,4 @@ if SUPPORT_CHAT:
     if not re.match("(?:http|https)://", SUPPORT_CHAT):
         raise SystemExit(
             "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure that it starts with https://"
-        )
+)
